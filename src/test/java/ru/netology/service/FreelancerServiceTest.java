@@ -12,7 +12,8 @@ class FreelancerServiceTest {
         int expenses = 3_000;
         int threshold = 20_000;
         int expected = 3;
-        FreelancerService service = new FreelancerService();;
+        FreelancerService service = new FreelancerService();
+        ;
 
         int actual = service.calculate(income, expenses, threshold);
 
